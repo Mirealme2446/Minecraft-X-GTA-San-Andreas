@@ -1,22 +1,8 @@
 
-name: Verificar Minecraft V8 CLEO
+{$CLEO .cs}
 
-on:
-  push:
-  workflow_dispatch:
+03A4: name_thread 'MCV8'
 
-jobs:
-  verificar:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Baixar arquivos
-        uses: actions/checkout@v4
-
-      - name: Verificar codigo CLEO
-        shell: bash
-        run: |
-          test -f Minecraft_V8_CLEO.txt
-          grep -q 'CLEO' Minecraft_V8_CLEO.txt
-          echo "Arquivo fonte encontrado!"
-          echo "Compilacao ainda nao configurada."
+:INICIO
+0001: wait 0
+0002: jump @INICIO
