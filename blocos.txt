@@ -1,0 +1,25 @@
+MINECRAFT X GTA SAN ANDREAS
+SISTEMA DE BLOCOS V1
+
+PERSONAGEM:
+CJ original
+
+BLOCO:
+grass_block.obj
+
+TEXTURAS:
+grass_top.png
+grass_side.png
+grass_bottom.png
+
+FUNCAO 1 - COLOCAR
+Criar um bloco de grama perto do CJ.
+
+FUNCAO 2 - QUEBRAR
+Remover o bloco selecionado.
+
+PLATAFORMA:
+GTA San Andreas Android 2.11.245
+
+STATUS:
+Planejamento para desenvolvimento CLEO.
