@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
+  compilar:
+    runs-on: windows-latest
   verificar:
     runs-on: ubuntu-latest
 
